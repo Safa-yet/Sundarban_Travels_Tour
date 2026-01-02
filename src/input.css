@@ -156,12 +156,28 @@ header{
 }
 
 .sec3{
-  background-image: url(../asset/img/bg1.png);
+background: url(../asset/img/bg1.png);
+  height: full;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  background-position: center;
+
 }
 
 
+.list__icon1::before{
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 7px solid #4DA528;
+  bottom: -6px;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 1;
+}
 .list__icon::before{
   position: absolute;
   content: "";
@@ -170,7 +186,7 @@ header{
   border-left: 7px solid transparent;
   border-right: 7px solid transparent;
   border-top: 7px solid #4DA528;
-  bottom: -7px;
+  bottom: -6px;
   left: 50%;
   transform: translateX(-50%);
   opacity: 0;
@@ -178,4 +194,53 @@ header{
 
 .list__icon:hover::before{
   opacity: 1;
+}
+
+/* List Icon Two */
+.list__Icon2::before{
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 0px;
+  border-left: 24px solid transparent;
+  border-right: 24px solid transparent;
+  border-top: 24px solid #4DA528;
+  bottom: -22px;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 1;
+}
+
+
+.list__icon2::before{
+  position: absolute;
+  content: "";
+   width: 50px;
+  height: 0px;
+  border-left: 24px solid transparent;
+  border-right: 24px solid transparent;
+  border-top: 24px solid #4DA528;
+  bottom: -22px;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+}
+
+.list__icon2:hover::before{
+  opacity: 1;
+}
+
+/* Section 4 */
+.transText{
+  background: url(../asset/img/tour1.jpg);
+ 
+  background-position: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ -webkit-text-stroke: 1px var(--color-org);
+
+  font-family: var(--font-plus);
+  font-size: 10rem;
+  
+ 
 }
