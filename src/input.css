@@ -244,3 +244,32 @@ background: url(../asset/img/bg1.png);
   
  
 }
+
+
+/* Trolli Move */
+.trolli{
+  position: absolute;
+  bottom: -40px;
+  left: 0;
+  animation: trolliMove 6s linear infinite ;
+  z-index: -1; 
+
+}
+@keyframes trolliMove {
+  0%{
+    transform:translateX(-400px);
+    opacity: 1;
+  }
+ 
+  50%{
+    transform:translateX(300px);
+    opacity: 0.5;
+    
+  }
+  100%{
+    transform:translateX(500px);
+    opacity: 0;
+    
+  }
+  
+}
