@@ -1,6 +1,6 @@
 // Search Button
 let srcBtn = document.getElementById("search__btn");
-let srcInp =document.getElementById("src__inp")
+let srcInp =document.getElementById("src__inp");
 
 srcBtn.addEventListener("click",()=>{
    srcInp.classList.toggle("active");
@@ -32,7 +32,7 @@ srcBtn.addEventListener("click",()=>{
     let dropBtns = document.querySelectorAll(".catagories__dropBtn");
 let dropdownLists = document.querySelectorAll(".catagories__dropdown");
 
-// Protiti button-er upor loop chalate hobe
+
 dropBtns.forEach((btn, index) => {
     btn.addEventListener("click", () => {
         // 'index' use kore oi nirdishto dropdown-ti toggle kora jabe
