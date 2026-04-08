@@ -12,8 +12,8 @@ This website is designed for a travel agency that offers Sundarban tour packages
 
 ## 📸 Screenshot
 
+**<img width="510" height="380" alt="image" src="https://github.com/user-attachments/assets/351b6871-52a9-48df-989a-10fffd480f43" />
 
-<img width="1365" height="4053" alt="image" src="https://github.com/user-attachments/assets/af0787d6-ba15-4166-9ecc-fd396f7ec67e" />
 
 ```
 
