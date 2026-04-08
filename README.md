@@ -16,14 +16,13 @@ This website is designed for a travel agency that offers Sundarban tour packages
 
 ```
 
----
+```
 
 ## 🚀 Live Demo
-
 🔗https://sundarban-travels-tour.vercel.app/
 
----
 
+```
 ## 🛠️ Technologies Used
 
 * React.js
