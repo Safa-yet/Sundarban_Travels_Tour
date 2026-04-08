@@ -13,10 +13,6 @@ This website is designed for a travel agency that offers Sundarban tour packages
 ## 📸 Screenshot
 <img width="1366" height="768" alt="sundarban-demo-pic" src="https://github.com/user-attachments/assets/f3c3ab26-ef2a-4c52-bf76-c183b901834e" />
 
-(Add your project screenshot here)
-
-```
-![Pr<img width="1365" height="4186" alt="image" src="https://github.com/user-attachments/assets/1be6b75a-ed0e-458d-ae31-e70dcefea877" />
 
 ```
 
